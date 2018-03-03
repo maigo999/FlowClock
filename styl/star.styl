@@ -17,6 +17,9 @@ random(min, max)
             position: absolute
             animation-delay: random(1, 50)s;
             transform: scale(0.02)
+            @media screen and (max-width: 480px)
+                left: unit(random(1, 65), rem)
+
     .star
         width: 0px;
         height: 0px;
