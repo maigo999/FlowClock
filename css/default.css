@@ -233,7 +233,7 @@ video {
   text-shadow: none;
 }
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: #fff;
 }
@@ -251,6 +251,6 @@ body .container .time {
   align-items: center;
 }
 body .container .time #time {
-  font-size: 8rem;
+  font-size: 12vw;
   color: #fff;
 }
