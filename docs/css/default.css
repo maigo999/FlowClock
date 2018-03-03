@@ -232,3 +232,25 @@ video {
   color: #000;
   text-shadow: none;
 }
+body {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+body .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+body .container .time {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .time #time {
+  font-size: 8rem;
+  color: #fff;
+}
