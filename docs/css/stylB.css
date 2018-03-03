@@ -1,9 +1,3 @@
-body {
-  height: 100vh;
-  font-size: 10vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
   background: linear-gradient(to bottom, #4581d9 0%, #4e8ed8 27%, #66badc 54%, #66badc 54%, #92f7e5 77%, #f0fffc 100%);
-  color: #fff;
 }
